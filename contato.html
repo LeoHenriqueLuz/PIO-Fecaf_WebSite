@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Lavtech - Contato - 11 99999-9999</title>
+  <meta name="description" content="Lavtech Lavagem e Manutenção de Persianas e Cortinas Rolos, Romanas, e muito mais">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lavtech - Contato - 11 99999-9999" />
+  <meta property="og:description" content="Lavtech Lavagem e Manutenção de Persianas e Cortinas Rolos, Romanas, e muito mais" />
+  <meta property="og:url" content="http://lavtech.com" />
+  <meta property="og:image" content="http://lavtech.com/img/og-image.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/logolavtech.png" alt="Lavtech logo">
+      </a>
+      <nav class="header_menu grid-12">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="serviços.html">Serviços</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_contato">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">Contato</h1>
+      <p data-anime="800" class="fadeInDown">Solicite um orçamento.</p>
+    </div>
+  </section>
+
+
+
+  <section class="contato container fadeInDown" data-anime="1200">
+    <form id="form_orcamento" action="enviar.php" method="POST" class="contato_form grid-8 formphp">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" name="telefone">
+      <label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+      <input type="text" class="nao-aparece" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude este campo</label>
+      <input type="text" class="nao-aparece" name="dontchange" value="http://">
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+      <button id="enviar" name="enviar" type="submit" class="btn btn-preto" onclick="aviso()">Enviar</button>
+    </form>
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>11 99999 9999</span>
+      <span>orcamento@lavtech.com</span>
+      <span>Rua Ali Perto - Jardim  Ali Perto, 99</span>
+      <span>São Paulo - SP -Brasil</span>
+      <h3>Redes Sociais</h3>
+      <ul>
+        <li><a href="http://facebook.com" target="_blank" rel="external"><img src="img/redes-sociais/icon-face.png" alt="Facebook Lavtech"></a></li>
+        <li><a href="http://instagram.com" target="_blank" rel="external"><img src="img/redes-sociais/icon-insta.png" alt="Instagram Lavtech"></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <section class="container contato_mapa fadeInDown" data-anime="1600">
+    <a href="https://www.google.com.br/maps/@-23.6002411,-46.757523,15z" target="_blank" class="grid-16"><img src="img/são-paulo-google-mapa.jpg" alt="Endereço da Lavtech"></a>
+  </section>
+
+  <div class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"A nossa casa é o nosso lar onde devemos procurar manter sempre harmoniosa: limpa, arejada, clara, com plantas, enfim um ambiente alegre e cheio de vida." </p>
+      <cite>Angela Monteiro</cite>
+    </blockquote>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa História</h3>
+          <p>Desde 2006, a <strong>Lavtech</strong> se tornou, especialista em Lavagem e Manutenção de Persianas do tipo:
+            Rolo Tela Solar de Sacada, Persianas Romanas, Persianas Double Vision, Persianas Silhuettes, Persianas Verticais de fita, Cortinas Voal entre outros.
+           Possuímos técnicos capacitados para atender a sua necessidade, cuidando do seu produto com o maior zelo possível.
+           Solicite orçamento sem compromisso e teremos o prazer em atende-lo!
+          </p>
+        </div>
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 11 99999-9999</li>
+            <li>- contato@Lavtech.com</li>
+            <li>- São Paulo - SP</li>
+          </ul>
+        </div>
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank" rel="external"><img src="img/redes-sociais/icon-face.png" alt="Facebook Lavtech"></a></li>
+            <li><a href="http://instagram.com" target="_blank" rel="external"><img src="img/redes-sociais/icon-insta.png" alt="Instagram Lavtech"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Site desenvolvido por <a href="https://perfilpessoalleonardo.leohenriqueluz.repl.co/">Leonardo Henrique</a> para Projeto Integrador Orientado-Fecaf 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="js/simple-anime.js"></script>
+  <script src="js/simple-slide.js"></script>
+  <script src="js/simple-form.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Javascript -->
+
+</body>
+
+</html>
